@@ -1,0 +1,201 @@
+.breadcrumb{
+	height: 22px;
+	background: white;
+	margin: 34px 0 87px;
+}
+.box{
+	height: 869px;
+	background: white;
+	
+}
+.product-pic{
+	float: left;
+	width: 600px;
+	height: 750px;
+	background:white;
+	margin-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.image{
+	width: 450px;
+	height: 450px;
+	background: white;
+}
+.product-image-thumb{
+	float: left;
+	width: 500px;
+	height: 293px;
+	background: white;
+}
+
+.product-information{
+	float: left;
+	width: 505px;
+	height: 800px;
+	background: white;
+	padding: 0 15px;
+}
+
+#gallery_main {
+    padding-top: 40px;
+    padding-left: 0;
+    margin-left: -10px;
+}
+
+/*轮播图css*/
+ /*设置显示图片的大小，溢出隐藏*/
+.slidershow{
+	width: 600px;
+	height: 600px;
+	overflow: hidden;
+}
+/*居中*/
+.middle{
+	position: relative;
+	
+}
+/*导航   设置绝对位置，弹性布局，按钮位置*/
+.navigaion{
+	position: absolute;
+	bottom: 5px;  		/*底部距离*/
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+/*设置按钮属性*/
+.bar{
+	width: 50px;
+	height: 10px;
+	border: 2px solid #CCCCCC;
+	margin:0.375rem;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.bar:hover{
+	background-color: #eeeeee;
+}
+/*隐藏了按钮*/
+input[name="r"]{
+	position: absolute;
+	visibility: hidden;
+}
+.slides{
+	width: 1000%;
+	height: 100%;
+	display: flex;
+}
+.slide{
+	width: 10%;
+	transition: 1.5s;/*delay(延迟)*/
+}
+.slide img{
+	width: 100%;
+	height: 100%;
+}
+/*绑定按钮*/
+#r1:checked~ .s1{
+	margin-left: 0;
+}
+#r2:checked~ .s1{
+	margin-left: -10%;
+}
+#r3:checked~.s1{
+	margin-left: -20%;
+}
+
+label{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	margin-left: 10px;
+	}
+.selector {
+	background: white;
+    display: inline-block;
+    padding: 10px 0px 10px 0;
+    position: relative;
+    height:100px;
+    line-height: 40px;
+    margin-top: 30px;
+    width: 100%;
+}
+.selector select{
+    border: 1px solid #cccccc;
+    margin-left: 70px;
+    width: 80%;
+    padding: 15px 50px 10px;
+    position: absolute;  
+    font-size: 18px;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 2em;
+    padding: 3px 2px 1px;
+}
+
+.num{
+	background: white;
+    display: inline-block;
+    padding: 10px 0px 10px 0;
+    position: relative;
+    height:100px;
+    line-height: 40px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+ul,li {list-style: none;}
+a:link {ext-decoration: none;}
+            
+.btn-numbox {
+    overflow: hidden;
+    margin-top: -30px;
+     margin-left:10px;
+}
+ .btn-numbox li {
+     float: left;
+}
+          
+  .btn-numbox .count {
+    overflow: hidden;
+     margin: 0 16px 0 -20px;
+            }
+            
+.btn-numbox .count .num-jian,.input-num,.num-jia {
+                display: inline-block;
+               
+                width: 50px;
+                height:47px;
+                text-align: center;
+                font-size: 18px;
+                color: #999;
+                cursor: pointer;
+                border: 2px solid #e6e6e6;
+            }
+.btn-numbox .count .input-num {
+                width:300px;
+                height: 45px;
+                color: #333;
+                border-left: 0;
+                border-right: 0;
+                }
+.button {
+	background: black;
+    padding: 10px 0px 10px 0;
+    position: relative;
+    height:40px;
+    line-height: 40px;
+    margin-top: 30px;
+    width: 100%;
+}
+.button span{
+	color: white;
+	padding-left: 40%;
+	font-family: "微软雅黑";
+	font-size: 20px;
+}
+
+
+
